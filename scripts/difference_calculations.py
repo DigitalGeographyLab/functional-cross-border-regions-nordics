@@ -20,7 +20,6 @@ import numpy as np
 import operator
 import os
 import pandas as pd
-pd.options.mode.chained_assignment = None  # default='warn'
 import seaborn as sns
 from shapely import wkt
 from shapely.geometry import Point, LineString, Polygon, MultiPolygon
@@ -28,9 +27,10 @@ from sqlalchemy import create_engine, func, distinct
 import sys
 import tempfile
 import warnings
+pd.options.mode.chained_assignment = None  # default='warn'
 # filter out RuntimeWarnings, due to geopandas/fiona read file spam
 # https://stackoverflow.com/questions/64995369/geopandas-warning-on-read-file
-warnings.filterwarnings("ignore",category=RuntimeWarning)
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 starttime = datetime.now()
 
@@ -44,10 +44,10 @@ plt.rcParams["figure.titleweight"] = "bold"
 cmap_grey = mpl.cm.get_cmap('Greys')
 cmap_blue = mpl.cm.get_cmap('Blues')
 cmap_red = mpl.cm.get_cmap('Reds')
-loss_color = cmap_red(0.8,1)
-same_color = cmap_grey(0.4,0.7)
-border_color = cmap_blue(0.75,0.7)
-gain_color = cmap_blue(0.8,1)
+loss_color = cmap_red(0.8, 1)
+same_color = cmap_grey(0.4, 0.7)
+border_color = cmap_blue(0.75, 0.7)
+gain_color = cmap_blue(0.8, 1)
 
 # Cities to plot
 cities_list = ['Copenhagen, Denmark','Malmö, Sweden','Oslo, Norway','Helsinki, Finland','Stockholm, Sweden','Tornio, Finland','Haparanda, Sweden','Göteborg, Sweden', 'Tromsø, Norway','Bergen, Norway', 'Århus, Denmark','Stavanger,Norway','Reykjavik, Iceland', 'Trondheim, Norway', ' Vasa, Bangatan, Finland','Umeå, Sweden','Oulu, Finland','Sundsvall, Sweden','Turku, Finland', 'Kiruna, Sweden','Ålborg, Denmark','Luleå, Sweden', 'Rovaniemi, Finland', 'Strömstad, Sweden', 'Halden, Norway', 'Alta, Norway']
