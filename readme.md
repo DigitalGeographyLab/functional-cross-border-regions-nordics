@@ -3,7 +3,7 @@ This repo contains code used in the article "The effect of COVID-19 on cross-bor
 
 The work is conducted within the [Digital Geography Lab](https://www2.helsinki.fi/en/researchgroups/digital-geography-lab) at the University of Helsinki and as a part of the *BORDERSPACE -- Tracing Interactions and Mobilities Beyond State Borders: Towards New Transnational Spaces* [project](https://www2.helsinki.fi/en/researchgroups/digital-geography-lab/mobilities-and-interactions-of-people-crossing-state-borders-big-data-to-reveal-transnational-people-and-spaces).
 
-Collection of data is based upon the tool *tweetsearcher* created by Tuomo Väisänen: [https://github.com/DigitalGeographyLab/tweetsearcher](https://github.com/DigitalGeographyLab/tweetsearcher)
+Collection of data is based upon the tool *tweetsearcher* created by Tuomas Väisänen et al.: [https://github.com/DigitalGeographyLab/tweetsearcher](https://github.com/DigitalGeographyLab/tweetsearcher)
 [Digital Geography Lab](https://www2.helsinki.fi/en/researchgroups/digital-geography-lab). 
 
 
