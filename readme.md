@@ -23,4 +23,4 @@ Collection of data is based upon the tool *tweetsearcher* created by Tuomas Väi
 
 If you use the materials here please use the following reference:
 
-Aagesen, H. W., Järv, O., Gerber, P. (2022). The effect of COVID-19 on cross-border mobilities of people and functional border regions: the Nordic case study from Twitter data. Geografiska Annaler: Series B, Human Geography (Provisionally accepted manuscript at the time of writing)
+Aagesen, H. W., Järv, O., Gerber, P. (2022). The effect of COVID-19 on cross-border mobilities of people and functional border regions: the Nordic case study from Twitter data. Geografiska Annaler: Series B, Human Geography [https://doi.org/10.1080/04353684.2022.2101135](https://doi.org/10.1080/04353684.2022.2101135)
