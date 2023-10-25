@@ -11,13 +11,13 @@ Collection of data is based upon the tool *tweetsearcher* created by Tuomas Väi
 
 | File | Description |
 | ---- | ----------- |
-| [difference_calculations.py](difference_calculations.py) | Calculates difference in spatial extent of functional cross-border regions |
-| [functional_area_maps.py](functional_area_maps.py) | Calculates and plots functional cross-border region maps |
-| [line_charts.py](line_charts.py) | Plots line charts of temporal mobility patterns |
-| [median_distances.py](median_distances.py) | Calculates distance statistics on a country level |
-| [regional_distances.py](regional_distances.py) | Calculates distance statistics on a regional level |
-| [significance_tests.py](significance_tests.py) | Significance tests |
-| [stringency_chart.py](stringency_chart.py) | Plots a chart of stringency of COVID-19 measures |
+| [difference_calculations.py](scripts/difference_calculations.py) | Calculates difference in spatial extent of functional cross-border regions |
+| [functional_area_maps.py](scripts/functional_area_maps.py) | Calculates and plots functional cross-border region maps |
+| [line_charts.py](scripts/line_charts.py) | Plots line charts of temporal mobility patterns |
+| [median_distances.py](scripts/median_distances.py) | Calculates distance statistics on a country level |
+| [regional_distances.py](scripts/regional_distances.py) | Calculates distance statistics on a regional level |
+| [significance_tests.py](scripts/significance_tests.py) | Significance tests |
+| [stringency_chart.py](scripts/stringency_chart.py) | Plots a chart of stringency of COVID-19 measures |
 
 ## Citation
 
